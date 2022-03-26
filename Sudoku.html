@@ -1,0 +1,107 @@
+<html lang="ca">
+
+<head>
+    <title>Sudoku de joalro</title>
+    <meta name="author" content="Jose Antonio Álvarez">
+    <meta charset="UTF-8">
+</head>
+<body onload="iniciar();">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <div id="app"></div>
+    <!--
+    <template id="plantilla">
+        <div>            
+            <div id="area1">
+                <table>
+                    <tr><td>aaa</td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                </table>
+            </div>            
+            <div id="area2">
+                <table>
+                    <tr><td>bbb</td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                </table>
+            </div>
+            <div id="area3">
+                <table>
+                    <tr><td>ccc</td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                </table>
+            </div>
+            <div id="area4">
+                <table>
+                    <tr><td>ddd</td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                </table>
+            </div>
+            <div id="area5">
+                <table>
+                    <tr><td>eee</td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                </table>
+            </div>
+            <div id="area6">
+                <table>
+                    <tr><td>fff</td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                </table>
+            </div>
+            <div id="area7">
+                <table>
+                    <tr><td>fff</td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                </table>
+            </div>
+            <div id="area8">
+                <table>
+                    <tr><td>ggg</td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                </table>
+            </div>
+            <div id="area9">
+                <table>
+                    <tr><td>hhh</td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                </table>
+            </div>
+        </div>
+    </template>
+    <script>
+        let app = new Vue({
+            el: '#app',
+            data: {
+                
+            },
+            template: '#plantilla'
+        });
+    </script>
+    -->
+     <script src="./gestorSudoku.js"></script>
+    <style>
+        td{width:30px;height:30px;border:3px solid black;text-align: center;}
+        div{width:fit-content;}
+        
+        #area1{position:absolute; left:0px;top:8px; display:block;}
+        #area2{position:absolute; left:120px;top:8px; display:block;}
+        #area3{position:absolute; left:240px;top:8px; display:block;}
+        #area4{position:absolute; left:0px;top:103px; display:block;}
+        #area5{position:absolute; left:120px;top:103px; display:block;}
+        #area6{position:absolute; left:240px;top:103px; display:block;}
+        #area7{position:absolute; left:0px;top:197px; display:block;}
+        #area8{position:absolute; left:120px;top:197px; display:block;}
+        #area9{position:absolute; left:240px;top:197px; display:block;}
+        
+    </style>
+</body>
+
+</html>
